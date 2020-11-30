@@ -228,3 +228,35 @@ footer{
     display: flex;
     justify-content: space-between;
 }
+.map{
+    height: 295px;
+    position: relative;
+    margin: auto;
+}
+.adress{
+    padding: 52px 82px 47px 78px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cell{
+    max-width: 50%;
+    text-align: center;
+}
+.cell span{
+    font: 13px/13px 'Open Sans';
+    color: #505d68;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.cell p{
+   font: 19px/19px 'Open Sans-Light';
+    color: #505d68;
+    margin-bottom: 0;
+    display: inline-block;
+width: 100%;
+}
+
+
