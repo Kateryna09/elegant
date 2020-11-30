@@ -1,8 +1,9 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 @font-face {
     font-family: 'Open Sans';
     src: url('../fonts/OpenSans-Semibold.eot');
@@ -15,6 +16,7 @@
     font-style: normal;
     font-display: swap;
 }
+
 @font-face {
     font-family: 'Open Sans Light-Italic';
     src: url('../fonts/OpenSansLight-Italic.eot');
@@ -40,35 +42,43 @@
     font-style: normal;
     font-display: swap;
 }
-.main{
+
+.main {
     background-image: url("../images/bg.jpg");
     height: 100vh;
     background-size: cover;
     display: flex;
     margin-bottom: 80px;
 }
+
 header {
     position: absolute;
     top: 0;
     width: 100%;
 }
-.conteiner{
+
+.conteiner {
     display: flex;
     justify-content: space-between;
     max-width: 1185px;
     margin: auto;
     padding-top: 16px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-.menu{
+
+.menu {
     padding-top: 15px;
 }
-.menu a{
+
+.menu a {
     text-decoration: none;
     font: 16px/16px 'Open Sans';
     color: #ffffff;
     text-transform: uppercase;
 }
-.menu a:after{
+
+.menu:after {
     font-weight: 900;
     font-family: "Font Awesome 5 Free";
     -webkit-font-smoothing: antialiased;
@@ -79,134 +89,160 @@ header {
     line-height: 1;
     content: "\f0c9";
     margin-left: 4px;
+    color: #ffffff;
 }
-.main h1{
+
+.main h1 {
     margin: auto;
     font: 80px/80px 'Open Sans-Light';
     color: white;
 }
-.main h1 span{
+
+.main h1 span {
     font: 80px/80px 'Open Sans Light-Italic';
 
 }
-.item{
+
+.item {
     max-width: 769px;
     margin: auto;
     text-align: center;
 }
+
 .section {
     margin-bottom: 163px;
 }
-.section h3{
+
+.section h3 {
     font: 13px/13px 'Open Sans';
     color: #d4af37;
     margin-bottom: 21px;
     text-transform: uppercase;
 }
-.section h2{
+
+.section h2 {
     font: 44px/44px 'Open Sans';
     color: #021725;
     margin-bottom: 59px;
 }
-.section p{
+
+.section p {
     font: 18px/18px 'Open Sans-Light';
     color: #021725;
     margin-bottom: 50px;
 }
-.section a{
+
+.section a {
     text-decoration: none;
     font: 14px/14px 'Open Sans-Light';
     color: #021725;
     padding: 23px 46px 21px 48px;
     border: 1px solid #000000;
 }
-.pictures{
-    margin-bottom: 162px;
-}
 
-.image{
+.pictures {
+    padding-bottom: 162px;
+    display: flex;
+    flex-wrap: wrap;
     max-width: 1280px;
     margin: auto;
-    display: flex;
 }
-.image img{
-    display: block;
-    width: 100%;
-    margin-right: 2px;
-    margin-left: 2px;
+
+.image {
+    width: 25%;
     margin-bottom: 3px;
 }
-.img1{
+
+.image img {
+    display: block;
+    width: 100%;
+}
+
+.img1 {
     max-width: 317px;
 }
-.specialist{
+
+.specialist {
     display: flex;
     justify-content: space-between;
     margin-bottom: 165px;
     text-align: left;
 }
-.specialist_first{
-    max-width: 246px;
+
+.specialist_first {
+    max-width: 33%;
 }
-.specialist_first img{
+
+.specialist_first img {
     width: 100%;
     display: block;
 }
-.describe{
+
+.describe {
     background-color: #f9f9f9;
     padding: 20px 20px 48px 17px;
 }
-.specialist h3{
+
+.specialist h3 {
     font: 13px/13px 'Open Sans';
     color: #d4af37;
     margin-bottom: 21px;
 }
-.specialist h2{
+
+.specialist h2 {
     font: 21px/21px 'Open Sans';
     color: #021725;
     margin-bottom: 37px;
 }
-.specialist p{
+
+.specialist p {
     font: 13px/13px 'Open Sans-Light';
     color: #021725;
 }
-.last_post{
+
+.last_post {
     display: flex;
     justify-content: space-between;
     margin-bottom: 84px;
 
 }
-.write{
+
+.write {
     background-color: #f9f9f9;
     padding: 43px 38px 60px 39px;
 
 }
-.date{
+
+.date {
     font: 13px/13px 'Open Sans';
     color: #505d68;
     margin-bottom: 27px;
     text-align: left;
 }
-.write h3{
+
+.write h3 {
     font: 30px/30px 'Open Sans';
     color: #505d68;
     margin-bottom: 43px;
     text-align: left;
 }
-.write p{
+
+.write p {
     font: 16px/16px 'Open Sans-Light';
     color: #505d68;
     margin-bottom: 58px;
     text-align: left;
 }
-.write a{
+
+.write a {
     text-decoration: none;
     padding: 18px 47px 17px 46px;
     font: 14px/14px 'Open Sans-Light';
     color: #021725;
     border: 1px solid #000000;
 }
-.item a{
+
+.item a {
     text-decoration: none;
     padding: 23px 47px 21px 50px;
     font: 14px/14px 'Open Sans-Light';
@@ -215,7 +251,8 @@ header {
     display: inline-block;
     margin-bottom: 162px;
 }
-footer{
+
+footer {
     background-color: #eeeeee;
 
 
@@ -224,39 +261,45 @@ footer{
     padding-top: 41px;
     padding-bottom: 40px;
 }
-.item.d-flex{
+
+.item.d-flex {
     display: flex;
     justify-content: space-between;
 }
-.map{
+
+.map {
     height: 295px;
     position: relative;
     margin: auto;
 }
-.adress{
+
+.adress {
     padding: 52px 82px 47px 78px;
     background-color: #f9f9f9;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.cell{
+
+.cell {
     max-width: 50%;
     text-align: center;
 }
-.cell span{
+
+.cell span {
     font: 13px/13px 'Open Sans';
     color: #505d68;
     text-transform: uppercase;
     display: inline-block;
     margin-bottom: 50px;
 }
-.cell p{
-   font: 19px/19px 'Open Sans-Light';
+
+.cell p {
+    font: 19px/19px 'Open Sans-Light';
     color: #505d68;
-    margin-bottom: 0;
+    margin-bottom: 17px;
     display: inline-block;
-width: 100%;
+    width: 100%;
 }
 
 
