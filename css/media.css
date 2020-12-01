@@ -52,13 +52,28 @@
         display: block;
         text-align: left;
     }
+    .last_post {
+    flex-wrap: wrap;
+    }
+    .last_post_img{
+        width: 100%;
+    }
+    .write {
+        width: 100%;
+    }
 }
 @media only screen and (max-width: 375px){
-
+    .main {
+        background-image: url("../images/bg_mobile.jpg");
+    }
 }
 @media only screen and (max-width: 360px){
-
+    .main {
+        background-image: url("../images/bg_mobile.jpg");
+    }
 }
 @media only screen and (max-width: 320px){
-
+    .main {
+        background-image: url("../images/bg_mobile.jpg");
+    }
 }

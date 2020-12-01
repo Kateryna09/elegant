@@ -199,7 +199,9 @@ header {
     font: 13px/13px 'Open Sans-Light';
     color: #021725;
 }
-
+.last_post_img{
+    width: 50%;
+}
 .last_post {
     display: flex;
     justify-content: space-between;
@@ -210,7 +212,7 @@ header {
 .write {
     background-color: #f9f9f9;
     padding: 43px 38px 60px 39px;
-
+width: 50%;
 }
 
 .date {
@@ -234,13 +236,6 @@ header {
     text-align: left;
 }
 
-.write a {
-    text-decoration: none;
-    padding: 18px 47px 17px 46px;
-    font: 14px/14px 'Open Sans-Light';
-    color: #021725;
-    border: 1px solid #000000;
-}
 
 .item a {
     text-decoration: none;
@@ -250,6 +245,19 @@ header {
     border: 1px solid #000000;
     display: inline-block;
     margin-bottom: 162px;
+}
+.write a {
+    text-decoration: none;
+    padding: 18px 47px 17px 46px;
+    font: 14px/14px 'Open Sans-Light';
+    color: #021725;
+    border: 1px solid #000000;
+    margin-bottom: 0; !important;
+}
+.last_post_img img{
+    width: 100%;
+    display: block;
+    height: 100%;
 }
 
 footer {
