@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
+@font-face {
+    font-family: 'Now';
+    src: url('../fonts/Now-Bold.eot');
+    src: url('../fonts/Now-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Now-Bold.woff2') format('woff2'),
+    url('../fonts/Now-Bold.woff') format('woff'),
+    url('../fonts/Now-Bold.ttf') format('truetype'),
+    url('../fonts/Now-Bold.svg#Now-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
 
 @font-face {
     font-family: 'Open Sans';
@@ -309,5 +321,115 @@ footer {
     display: inline-block;
     width: 100%;
 }
+.owl-nav .owl-prev{
+    position:absolute;
+    left: -50px;
+    top: 200px;
+    color: black;
+    outline: none;
+}
+.owl-dots {
 
+}
+#opener{
+    text-decoration: none;
+    font: 14px/14px 'Open Sans-Light';
+    color: #021725;
+    padding: 23px 46px 21px 48px;
+    border: 1px solid #000000;
+}
+.ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-resizable {
+    width: 750px; !important;
 
+}
+.ui-dialog-title{
+    background-color: black;
+    font: 24px/24px 'Now';
+    color: #ffffff;
+    width: 100%;
+    display: inline-block;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+.ui-widget {
+    top:0;
+    position: absolute;
+    left: 750px;
+}
+.ui-dialog-content.ui-widget-content{
+    background-color: #fbfbfb;
+}
+form p {
+    font: 22px/22px 'Now';
+    display: inline-block;
+    margin-right: 50px;
+text-align: center;
+}
+form {
+    padding-top: 40px;
+    display: block;
+    padding-bottom: 168px;
+    max-width: 575px;
+    margin: auto;
+}
+.text {
+    width: 100%;
+    height: 60px;
+    display: inline-block;
+    border: 1px solid #b7b7b7;
+
+}
+.enter{
+
+    display: flex;
+    justify-content: space-between;
+}
+.reset{
+    display: block;
+    font: 24px/24px 'Now';
+    color: black;
+    background-color: #d4d4d4;
+    text-align: center;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+margin-bottom: 30px;
+
+}
+.data{
+    max-width: 526px;
+    margin: auto;
+    margin-top: 40px;
+text-align: center;
+    font: 22px/22px 'Now';
+    color: #363636;
+}
+.soc {
+
+    font: 24px/24px 'Now';
+    color: black;
+    background-color: #d4d4d4;
+    text-align: center;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+.soc:before {
+    content: "\f39e";
+    font-weight: 400;
+    font-family: "Font Awesome 5 Brands";
+    margin-right: 15px;
+}
+.soc:hover {
+    background-color: #557ccd;
+    color: white;
+}
+.reset:hover {
+    background-color: #557ccd;
+    color: white;
+}
