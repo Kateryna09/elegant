@@ -37,11 +37,12 @@
         <div id="dialog" title="FORGOT YOUR PASSWORD?">
             <form name="test" method="post" action="input1.php">
                 <div class="enter"><p>ENTER YOUR EMAIL</p>
-                <input class="text" type="text"></div>
-<div class="data">
-    <button class="reset">RESET PASSWORD</button>OR
-    <button class="soc">Log In Using Facebook</button>
-</div>
+                    <input class="text" type="text"></div>
+                <div class="data">
+                    <button class="reset">RESET PASSWORD</button>
+                    OR
+                    <button class="soc">Log In Using Facebook</button>
+                </div>
             </form>
 
         </div>
@@ -83,14 +84,14 @@
             </div>
         </div>
         <div class="specialist_first">
-        <img src="images/spec1.jpg" alt="specialist">
-        <div class="describe">
-            <h3>ceo</h3>
-            <h2>Tobias Schneider</h2>
-            <p>Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut
-                laoreet dolore.</p>
+            <img src="images/spec1.jpg" alt="specialist">
+            <div class="describe">
+                <h3>ceo</h3>
+                <h2>Tobias Schneider</h2>
+                <p>Lorem ipsum dolor sit amet, conse tetuer adi piscing elit, sed diam nonummy nibh euismod tincidunt ut
+                    laoreet dolore.</p>
+            </div>
         </div>
-    </div>
         <div class="specialist_first">
             <img src="images/spec1.jpg" alt="specialist">
             <div class="describe">
@@ -163,8 +164,8 @@
     </div>
     <div class="last_post">
         <div class="last_post_img">
-        <img src="images/last_post.jpg" alt="last_post">
-    </div>
+            <img src="images/last_post.jpg" alt="last_post">
+        </div>
         <div class="write">
             <div class="date">14 September 2014</div>
             <h3>Change Your Space</h3>
@@ -229,8 +230,8 @@
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="js/scripts.js"></script>
 <script>
-    $( function() {
-        $( "#dialog" ).dialog({
+    $(function () {
+        $("#dialog").dialog({
             width: 750,
             autoOpen: false,
             show: {
@@ -243,10 +244,10 @@
             }
         });
 
-        $( "#opener" ).on( "click", function() {
-            $( "#dialog" ).dialog( "open" );
+        $("#opener").on("click", function () {
+            $("#dialog").dialog("open");
         });
-    } );
+    });
 </script>
 </body>
 </html>

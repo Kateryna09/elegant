@@ -5,9 +5,15 @@
 
 }
 @media only screen and (max-width: 767px){
+    .ui-widget {
+        left: 0;
 
 }
 @media only screen and (max-width: 420px) {
+    .ui-widget {
+        left: 0;
+    }
+}
     .conteiner {
         background-color: rgba(36, 47, 53, 0.7);
         padding-left: 25px;
