@@ -49,9 +49,7 @@
   .owl-carousel .owl-item img {
     display: block;
     width: 100%; }
-  .owl-carousel .owl-nav.disabled,
-  .owl-carousel .owl-dots.disabled {
-    display: none; }
+
   .owl-carousel .owl-nav .owl-prev,
   .owl-carousel .owl-nav .owl-next,
   .owl-carousel .owl-dot {
@@ -70,7 +68,8 @@
     padding: 0 !important;
     font: inherit; }
   .owl-carousel.owl-loaded {
-    display: block; }
+    display: block;
+  margin-bottom: 165px}
   .owl-carousel.owl-loading {
     opacity: 0;
     display: block; }

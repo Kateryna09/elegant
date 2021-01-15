@@ -1,14 +1,47 @@
 @media only screen and (max-width: 1024px){
-
+    .main h1 {
+        font: 50px/50px 'Open Sans-Light';
+    }
+    .main h1 span {
+        font: 50px/50px 'Open Sans-Light';
+    }
 }
 @media only screen and (max-width: 992px){
-
+    .owl-next{
+        right: 2px;
+    }
+    .owl-prev{
+        left: 2px;
+    }
+    .ui-widget {
+        top: 0;
+        position: absolute;
+        left: 650px;
+        max-width: 650px;
+    }
 }
 @media only screen and (max-width: 767px){
     .ui-widget {
         left: 0;
-
+        max-width: 350px;
 }
+    form {
+
+        padding-bottom: 10px;
+        max-width: 575px;
+        margin: auto;
+    }
+
+    nav .menu-btn{
+        left: -12%;
+        top: 0;
+    }
+    .main h1 {
+        font: 25px/25px 'Open Sans-Light';
+    }
+    .main h1 span {
+        font: 25px/25px 'Open Sans-Light';
+    }
 @media only screen and (max-width: 420px) {
     .ui-widget {
         left: 0;
@@ -36,7 +69,10 @@
     }
 
     .main h1 {
-        font: 95px/95px 'Open Sans-Light';
+        font: 12px/12px 'Open Sans-Light';
+    }
+    .main h1 span {
+        font: 12px/12px 'Open Sans-Light';
     }
     .image {
         width: 100%;
