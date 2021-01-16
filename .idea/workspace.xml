@@ -4,9 +4,7 @@
     <list default="true" id="21297e2c-f6e9-4a65-b8b8-dfae79eb558c" name="Default Changelist" comment="form">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../final_project/css/style1.css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../notification/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -82,7 +80,8 @@
       <workItem from="1607506884453" duration="135000" />
       <workItem from="1610436208328" duration="10904000" />
       <workItem from="1610702793581" duration="6457000" />
-      <workItem from="1610723613958" duration="814000" />
+      <workItem from="1610723613958" duration="1561000" />
+      <workItem from="1610802959375" duration="6810000" />
     </task>
     <task id="LOCAL-00001" summary="jquery">
       <created>1606751556681</created>
@@ -147,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610723887066</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="&#10;mobile version correction">
+      <created>1610724731629</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1610724731629</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

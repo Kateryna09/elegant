@@ -98,17 +98,17 @@ header {
 
 .main h1 {
     margin: auto;
-    font: 80px/80px 'Open Sans-Light';
+    font: 70px/70px 'Open Sans-Light';
     color: white;
 }
 
 .main h1 span {
-    font: 80px/80px 'Open Sans Light-Italic';
+    font: 70px/70px 'Open Sans Light-Italic';
 
 }
 
 .item {
-    max-width: 769px;
+   max-width: 769px;
     margin: auto;
     text-align: center;
 }
@@ -148,7 +148,6 @@ header {
     padding-bottom: 162px;
     display: flex;
     flex-wrap: wrap;
-    max-width: 1280px;
     margin: auto;
 }
 
@@ -180,7 +179,8 @@ header {
 }
 
 .specialist_first {
-    max-width: 100%;
+    max-width: 80%;
+    margin: auto;
 
 }
 
@@ -288,11 +288,9 @@ header {
 footer {
     background-color: #eeeeee;
 
-
+padding: 41px 15px 40px 15px;
     font: 16px/16px 'Open Sans-Light';
     color: #505d68;
-    padding-top: 41px;
-    padding-bottom: 40px;
 }
 
 .item.d-flex {
@@ -343,7 +341,7 @@ footer {
 
     height: 20px;
     width: 10px;
-    left: -5%;
+    left: 5%;
     top: 50%;
     position: absolute;
 }
@@ -367,7 +365,7 @@ footer {
 .owl-next {
     height: 20px;
     width: 10px;
-    right: -5%;
+    right: 5%;
     top: 50%;
     position: absolute;
 }

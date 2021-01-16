@@ -33,7 +33,7 @@
     }
 
     nav .menu-btn{
-        left: -12%;
+        left: -25%;
         top: 0;
     }
     .main h1 {
@@ -41,6 +41,10 @@
     }
     .main h1 span {
         font: 25px/25px 'Open Sans-Light';
+    }
+    nav{
+        width: 200px;
+
     }
 @media only screen and (max-width: 420px) {
     .ui-widget {
@@ -54,15 +58,15 @@
         padding-top: 0;
     }
 
-    .menu a {
+    /*.menu a {
         display: none;
-    }
+    }*/
 
-    .menu {
+    /*.menu {
         background-color: rgba(36, 47, 53, 0.9);
         padding-left: 24px;
         padding-right: 24px;
-    }
+    }*/
 
     .main {
         background-image: url("../images/bg_mobile.jpg");
