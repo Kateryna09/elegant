@@ -34,7 +34,7 @@
 
     nav .menu-btn{
         left: -25%;
-        top: 2%;
+        top: 0;
     }
     .main h1 {
         font: 25px/25px 'Open Sans-Light';
@@ -49,6 +49,18 @@
     nav{
         width: 80%;
 
+    }
+    .section{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .pictures{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .owl-carousel.owl-loaded{
+        padding-left: 15px;
+        padding-right: 15px;
     }
 @media only screen and (max-width: 420px) {
     .ui-widget {
