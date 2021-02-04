@@ -5,8 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/83d1986101.js" crossorigin="anonymous"></script>
+    <title>Elegant</title>
+    <link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.3.css" type="text/css" media="screen"/>
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/owl.theme.default.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,6 +14,7 @@
 </head>
 <body>
 <div class="main">
+    <!-- BEGIN: header -->
     <header>
         <div class="container">
             <a href="#"><img src="images/logo.png" alt="logo"></a>
@@ -76,6 +77,7 @@
             </div>
         </div>
     </header>
+    <!-- END: header -->
     <h1>Sa<span>Haloa</span> to your Portfolio</h1>
 </div>
 <div class="item">
@@ -97,27 +99,26 @@
                     <button class="soc">Log In Using Facebook</button>
                 </div>
             </form>
-
         </div>
-
         <button id="opener">Read More About Us</button>
-        <!-- <a href="#">Read More About Us</a> -->
     </div>
-    <div class="section">
+    <div class="section show">
         <h3>What We Do</h3>
         <h2>Show Your Amazing Work</h2>
     </div>
 </div>
+<!-- BEGIN: .pictures -->
 <div class="pictures">
-    <div class="image"><img src="images/img1.jpg" alt="img1"></div>
-    <div class="image"><img src="images/img2.jpg" alt="img2"></div>
-    <div class="image"><img src="images/img3.jpg" alt="img3"></div>
-    <div class="image"><img src="images/img4.jpg" alt="img4"></div>
-    <div class="image"><img src="images/img5.jpg" alt="img5"></div>
-    <div class="image"><img src="images/img6.jpg" alt="img6"></div>
-    <div class="image"><img src="images/img7.jpg" alt="img7"></div>
-    <div class="image"><img src="images/img8.jpg" alt="img8"></div>
+    <div class="image"><img src="images/image1.jpg" alt="photo"></div>
+    <div class="image"><img src="images/image2.jpg" alt="photo"></div>
+    <div class="image"><img src="images/image3.jpg" alt="photo"></div>
+    <div class="image"><img src="images/image4.jpg" alt="photo"></div>
+    <div class="image"><img src="images/image5.jpg" alt="photo"></div>
+    <div class="image"><img src="images/image6.jpg" alt="photo"></div>
+    <div class="image"><img src="images/image7.jpg" alt="photo"></div>
+    <div class="image"><img src="images/image8.jpg" alt="photo"></div>
 </div>
+<!-- END: .pictures -->
 <div class="item">
     <div class="section">
         <h3>Who We Are</h3>
@@ -126,8 +127,9 @@
             demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas est etiam processus dynamicus, qui
             sequitur mutationem consuetudium lectorum.</p>
     </div>
+    <!-- BEGIN: .owl-carousel -->
     <div class="owl-carousel">
-        <div class="specialist_first">
+        <div class="specialist-first">
             <img src="images/spec1.jpg" alt="specialist">
             <div class="describe">
                 <h3>ceo</h3>
@@ -136,7 +138,7 @@
                     laoreet dolore.</p>
             </div>
         </div>
-        <div class="specialist_first">
+        <div class="specialist-first">
             <img src="images/spec2.jpg" alt="specialist">
             <div class="describe">
                 <h3>ceo</h3>
@@ -145,7 +147,7 @@
                     laoreet dolore.</p>
             </div>
         </div>
-        <div class="specialist_first">
+        <div class="specialist-first">
             <img src="images/spec3.jpg" alt="specialist">
             <div class="describe">
                 <h3>ceo</h3>
@@ -154,15 +156,15 @@
                     laoreet dolore.</p>
             </div>
         </div>
-
     </div>
+    <!-- END: .owl-carousel -->
     <div class="section">
         <h3>Last Post</h3>
         <h2>We Like to Write</h2>
     </div>
-    <div class="last_post">
-        <div class="last_post_img">
-            <img src="images/last_post.jpg" alt="last_post">
+    <!-- BEGIN: .last-post -->
+    <div class="last-post">
+        <div class="last-post-img">
         </div>
         <div class="write">
             <div class="date">14 September 2014</div>
@@ -171,11 +173,10 @@
                 demonstraverunt lectores.</p>
             <a href="#">Read</a>
         </div>
-
     </div>
-
+    <!-- END: .last-post -->
     <a href="#">More From Our Blog</a>
-    <div class="section">
+    <div class="section contact">
         <h3>
             Contact Us
         </h3>
@@ -185,7 +186,8 @@
                     width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
                     tabindex="0"></iframe>
         </div>
-        <div class="adress">
+        <!-- BEGIN: .address -->
+        <div class="address">
             <div class="cell">
                 <span>Location</span>
                 <p>198 West 21th Street, New
@@ -196,8 +198,6 @@
                 <p>+88 (0) 101 0000000</p>
                 <p>+88 (0) 101 0000000</p>
             </div>
-        </div>
-        <div class="adress">
             <div class="cell">
                 <span>Fax</span>
                 <p>+88 (0) 202 0000 000</p>
@@ -205,18 +205,21 @@
             </div>
             <div class="cell">
                 <span>Email</span>
-                <p>e@elegant.com</p>
-                <p>c@elegant.com</p>
+                <a>e@elegant.com</a>
+                <a>c@elegant.com</a>
             </div>
         </div>
+        <!-- END: .address -->
     </div>
 </div>
 <footer>
     <div class="item d-flex">
-        <div class="copiright">
+        <!-- BEGIN: .copyright -->
+        <div class="copyright">
             © 2014 Designed and Developed by Diogo Dantas
         </div>
-        <div class="email">Email: imdiogodantas@gmail.com
+        <!-- END: .copyright -->
+        <div class="email"><a>Email: imdiogodantas@gmail.com</a>
         </div>
     </div>
 </footer>
@@ -226,26 +229,7 @@
         crossorigin="anonymous"></script>
 <script src="js/owl.carousel.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://kit.fontawesome.com/83d1986101.js" crossorigin="anonymous"></script>
 <script src="js/scripts.js"></script>
-<script>
-    $(function () {
-        $("#dialog").dialog({
-            width: 750,
-            autoOpen: false,
-            show: {
-                effect: "blind",
-                duration: 1000
-            },
-            hide: {
-                effect: "explode",
-                duration: 1000
-            }
-        });
-
-        $("#opener").on("click", function () {
-            $("#dialog").dialog("open");
-        });
-    });
-</script>
 </body>
 </html>

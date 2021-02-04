@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="21297e2c-f6e9-4a65-b8b8-dfae79eb558c" name="Default Changelist" comment="form">
+    <list default="true" id="21297e2c-f6e9-4a65-b8b8-dfae79eb558c" name="Default Changelist" comment="correct">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/media.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/media.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/owl.carousel.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/last_post.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/last_post.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/spec1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/spec1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/spec2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/spec2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/spec3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/spec3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +45,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../notification/index.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../final_project/index.html" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -81,7 +88,13 @@
       <workItem from="1610436208328" duration="10904000" />
       <workItem from="1610702793581" duration="6457000" />
       <workItem from="1610723613958" duration="1561000" />
-      <workItem from="1610802959375" duration="6810000" />
+      <workItem from="1610802959375" duration="7038000" />
+      <workItem from="1610872739328" duration="579000" />
+      <workItem from="1610996830087" duration="741000" />
+      <workItem from="1611082450595" duration="638000" />
+      <workItem from="1611126364388" duration="480000" />
+      <workItem from="1611413561560" duration="1249000" />
+      <workItem from="1612453354209" duration="9061000" />
     </task>
     <task id="LOCAL-00001" summary="jquery">
       <created>1606751556681</created>
@@ -153,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610724731629</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="correct">
+      <created>1610824706822</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610824706822</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +200,7 @@
     <MESSAGE value="button" />
     <MESSAGE value="form" />
     <MESSAGE value="&#10;mobile version correction" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;mobile version correction" />
+    <MESSAGE value="correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="correct" />
   </component>
 </project>

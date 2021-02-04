@@ -65,7 +65,9 @@
     overflow: hidden;
     position: relative;
 }
-
+.inner{
+    max-width: 900px;
+}
 header {
     position: absolute;
     top: 0;
@@ -93,6 +95,7 @@ header {
     font: 16px/16px 'Open Sans';
     color: #ffffff;
     text-transform: uppercase;
+    transition: 1s;
 }
 
 
@@ -108,14 +111,11 @@ header {
 }
 
 .item {
-   max-width: 769px;
+   /*max-width: 769px;*/
     margin: auto;
     text-align: center;
 }
 
-.section {
-    margin-bottom: 163px;
-}
 
 .section h3 {
     font: 13px/13px 'Open Sans';
@@ -131,7 +131,7 @@ header {
 }
 
 .section p {
-    font: 18px/18px 'Open Sans-Light';
+    font: 18px/22px 'Open Sans-Light';
     color: #021725;
     margin-bottom: 50px;
 }
@@ -142,10 +142,12 @@ header {
     color: #021725;
     padding: 23px 46px 21px 48px;
     border: 1px solid #000000;
+    transition: 1s;
+    cursor: pointer;
 }
 
 .pictures {
-    padding-bottom: 162px;
+    padding-bottom: 50px;
     display: flex;
     flex-wrap: wrap;
     margin: auto;
@@ -153,7 +155,7 @@ header {
 
 .image {
     width: 25%;
-    margin-bottom: 3px;
+    border: 1px solid #FFFFFF;
 }
 
 .image:hover {
@@ -178,13 +180,13 @@ header {
     text-align: left;
 }
 
-.specialist_first {
+.specialist-first {
     max-width: 80%;
     margin: auto;
 
 }
 
-.specialist_first img {
+.specialist-first img {
     width: 100%;
     display: block;
 }
@@ -207,15 +209,17 @@ header {
 }
 
 .specialist p {
-    font: 13px/13px 'Open Sans-Light';
+    font: 13px/17px 'Open Sans-Light';
     color: #021725;
 }
 
-.last_post_img {
+.last-post-img {
     width: 50%;
+    background-image: url("../images/last_post.jpg");
+    background-size: cover;
 }
 
-.last_post {
+.last-post {
     display: flex;
     justify-content: space-between;
     margin-bottom: 84px;
@@ -243,7 +247,7 @@ header {
 }
 
 .write p {
-    font: 16px/16px 'Open Sans-Light';
+    font: 16px/20px 'Open Sans-Light';
     color: #505d68;
     margin-bottom: 58px;
     text-align: left;
@@ -257,12 +261,21 @@ header {
     color: #021725;
     border: 1px solid #000000;
     display: inline-block;
-    margin-bottom: 162px;
     background-color: #f9f9f9;
+    transition: 1s;
+    cursor: pointer;
+}
+.section.show{
+    margin-top: 50px;
+}
+.section.contact{
+    margin-top: 50px;
 }
 
 .item a:hover {
-    background-color: white;
+    background-color: #2b669a;
+    color: #FFFFFF;
+    transition: 2s;
 }
 
 .write a {
@@ -273,13 +286,16 @@ header {
     border: 1px solid #000000;
     margin-bottom: 0;
 !important;
+    cursor: pointer;
 }
 
 .write a:hover {
-    background-color: white;
+    background-color: #2b669a;
+    color: #FFFFFF;
+    transition: 2s;
 }
 
-.last_post_img img {
+.last-post-img img {
     width: 100%;
     display: block;
     height: 100%;
@@ -288,7 +304,7 @@ header {
 footer {
     background-color: #eeeeee;
 
-padding: 41px 15px 40px 15px;
+padding: 41px 50px 40px 50px;
     font: 16px/16px 'Open Sans-Light';
     color: #505d68;
 }
@@ -304,7 +320,7 @@ padding: 41px 15px 40px 15px;
     margin: auto;
 }
 
-.adress {
+.address {
     padding: 52px 82px 47px 78px;
     background-color: #f9f9f9;
     display: flex;
@@ -313,7 +329,7 @@ padding: 41px 15px 40px 15px;
 }
 
 .cell {
-    max-width: 50%;
+    max-width: 25%;
     text-align: center;
 }
 
@@ -326,7 +342,7 @@ padding: 41px 15px 40px 15px;
 }
 
 .cell p {
-    font: 19px/19px 'Open Sans-Light';
+    font: 19px/23px 'Open Sans-Light';
     color: #505d68;
     margin-bottom: 17px;
     display: inline-block;
@@ -339,10 +355,10 @@ padding: 41px 15px 40px 15px;
 
 .owl-prev {
 
-    height: 20px;
-    width: 10px;
+    height: 40px;
+    width: 40px;
     left: 5%;
-    top: 50%;
+    top: 30%;
     position: absolute;
 }
 
@@ -352,6 +368,7 @@ padding: 41px 15px 40px 15px;
     content: "\f054";
     display: block;
     transform: rotate(180deg);
+    font-size: 35px;
 
 }
 
@@ -360,13 +377,14 @@ padding: 41px 15px 40px 15px;
     font-family: "Font Awesome 5 Free";
     content: "\f054";
     display: block;
+    font-size: 35px;
 }
 
 .owl-next {
-    height: 20px;
-    width: 10px;
+    height: 40px;
+    width: 40px;
     right: 5%;
-    top: 50%;
+    top: 30%;
     position: absolute;
 }
 
@@ -393,10 +411,14 @@ padding: 41px 15px 40px 15px;
     color: #021725;
     padding: 23px 46px 21px 48px;
     border: 1px solid #000000;
+    cursor: pointer;
+    transition: 2s;
 }
 
 #opener:hover {
-    background-color: white;
+    background-color: #2b669a;
+    color: #FFFFFF;
+    transition: 2s;
 }
 
 .ui-dialog.ui-corner-all.ui-widget.ui-widget-content.ui-front.ui-draggable.ui-resizable {
@@ -427,7 +449,7 @@ padding: 41px 15px 40px 15px;
 }
 
 form p {
-    font: 22px/22px 'Now';
+    font: 22px/26px 'Now';
     display: inline-block;
     margin-right: 50px;
     text-align: center;
@@ -491,6 +513,7 @@ form {
     width: 100%;
     text-transform: uppercase;
     margin-top: 30px;
+    cursor: pointer;
 }
 
 .soc:before {
@@ -503,13 +526,38 @@ form {
 .soc:hover {
     background-color: #557ccd;
     color: white;
+    transition: 1s;
 }
 
 .reset:hover {
     background-color: #557ccd;
     color: white;
+    transition: 1s;
 }
-
+.email a{
+    border: none;
+    background: none;
+    padding: 0;
+    margin-bottom: 0;
+}
+.email a:hover{
+    color: #2b669a;
+    background: none;
+}
+.cell a{
+    border: none;
+    background: none;
+    padding: 0;
+    font: 19px/23px 'Open Sans-Light';
+    color: #505d68;
+    margin-bottom: 17px;
+    display: inline-block;
+    width: 100%;
+}
+.cell a:hover{
+    color: #2b669a;
+    background: none;
+}
 .ui-button:before {
     font-size: 47px;
     position: relative;
@@ -566,6 +614,8 @@ nav a {
     text-decoration: none;
     user-select: none;
     color: #fff;
+    transition: 1s;
+    cursor: pointer;
 }
 
 nav .nav-links {
@@ -592,6 +642,7 @@ nav .nav-links li {
 
 nav .nav-links li:hover {
     color: rgba(255, 255, 255, 0.85);
+    transition: 1s;
 }
 
 nav .nav-links li a {
@@ -640,6 +691,7 @@ nav .sub-menu ol li {
 
 nav .sub-menu ol li:hover {
     background: rgba(0, 0, 0, 0.25);
+    transition: 1s;
 }
 
 nav .sub-menu ol li.off-menu {
@@ -700,7 +752,7 @@ nav .menu-btn {
     --icon-width: 25px;
     position: absolute;
     top: 1%;
-    left: -15%;
+    left: -27%;
     width: calc(var(--icon-width) + 25px);
     height: calc(var(--icon-width) + 25px);
     flex-direction: column;

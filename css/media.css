@@ -34,7 +34,7 @@
 
     nav .menu-btn{
         left: -25%;
-        top: 0;
+        top: 2%;
     }
     .main h1 {
         font: 25px/25px 'Open Sans-Light';
@@ -42,8 +42,12 @@
     .main h1 span {
         font: 25px/25px 'Open Sans-Light';
     }
+    nav.nav-open .menu-btn {
+        right: -50%!important;
+    }
+
     nav{
-        width: 200px;
+        width: 80%;
 
     }
 @media only screen and (max-width: 420px) {
@@ -51,27 +55,12 @@
         left: 0;
     }
 }
-    .conteiner {
+    .container {
         background-color: rgba(36, 47, 53, 0.7);
         padding-left: 25px;
         padding-right: 0;
         padding-top: 0;
     }
-
-    /*.menu a {
-        display: none;
-    }*/
-
-    /*.menu {
-        background-color: rgba(36, 47, 53, 0.9);
-        padding-left: 24px;
-        padding-right: 24px;
-    }*/
-
-    .main {
-        background-image: url("../images/bg_mobile.jpg");
-    }
-
     .main h1 {
         font: 12px/12px 'Open Sans-Light';
     }
@@ -81,33 +70,45 @@
     .image {
         width: 100%;
     }
-    .specialist_first {
+    .specialist-first {
         max-width: 100%;
         margin-bottom: 55px;
     }
     .specialist {
         flex-wrap: wrap;
     }
-    .last_post {
+    .last-post {
         flex-wrap: wrap;
     }
-    .adress {
+    .address {
         padding: 52px 50px 47px 45px;
     }
     .item.d-flex {
         display: block;
         text-align: left;
     }
-    .last_post {
+    .last-post {
     flex-wrap: wrap;
     }
-    .last_post_img{
+    .last-post-img{
         width: 100%;
     }
     .write {
         width: 100%;
     }
+    .cell {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+    .address{
+        padding: 0 50px 0 45px;
+    }
+    .cell span{
+        margin-top: 50px;
+    }
+
 }
+
 @media only screen and (max-width: 375px){
     .main {
         background-image: url("../images/bg_mobile.jpg");
